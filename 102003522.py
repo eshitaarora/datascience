@@ -1,7 +1,7 @@
-python -m pip install moviepy
-python -m pip install youtube_search
-python -m pip install pytube
-python -m pip install pydub
+py -m pip install moviepy
+py -m pip install youtube_search
+py -m pip install pytube
+py -m pip install pydub
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
