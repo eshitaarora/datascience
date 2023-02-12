@@ -3,6 +3,7 @@ os.system("pip install moviepy")
 os.system("pip install youtube_search")
 os.system("pip install pytube")
 os.system("pip install pydub")
+os.system("pip install requests")
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
