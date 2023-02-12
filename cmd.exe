@@ -1,1 +1,5 @@
 cd C:/eshitaarora/datascience/new/main/102003522.py
+ py -m pip install moviepy
+ py -m pip install youtube_search
+ py -m pip install pytube
+ py -m pip install pydub
