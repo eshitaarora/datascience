@@ -1,6 +1,0 @@
-streamlit ==1.12.2
-pytube==12.1.0
-moviepy==1.0.3
-py7zr==0.20.0
-pydub==12.1.0
-youtube_search==12.1.1
