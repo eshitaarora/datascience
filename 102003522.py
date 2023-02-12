@@ -4,12 +4,13 @@ os.system("pip install youtube_search")
 os.system("pip install pytube")
 os.system("pip install pydub")
 os.system("pip install requests")
+import streamlit as st
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
-import streamlit as st
+# import streamlit as st
 from time import sleep
 import re
 import zipfile
