@@ -12,8 +12,7 @@ import streamlit as st
 from time import sleep
 import re
 import zipfile
-from moviepy.editor import VideoFileClip,concatenate_videoclips
-from moviepy.editor import concatenate_audioclips, AudioFileClip
+from moviepy.editor import *
 from youtube_search import YoutubeSearch
 import json
 from pytube import YouTube
