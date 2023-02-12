@@ -1,4 +1,4 @@
-pip nstall moviepy
+pip install moviepy
 pip install youtube_search
 pip install pytube
 pip install pydub
