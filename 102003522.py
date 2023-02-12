@@ -1,7 +1,8 @@
-install moviepy
-install youtube_search
-install pytube
-install pydub
+import os
+os.system("pip install moviepy")
+os.system("pip install youtube_search")
+os.system("pip install pytube")
+os.system("pip install pydub")
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -16,7 +17,7 @@ from moviepy.editor import concatenate_audioclips, AudioFileClip
 from youtube_search import YoutubeSearch
 import json
 from pytube import YouTube
-import os
+# import os
 from pydub import AudioSegment
 
 def download_videos_and_convert_into_audio(singer, n):
