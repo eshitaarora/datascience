@@ -48,7 +48,7 @@ def cut_first_y_sec(singer, n, y):
   print('cutting done')
 
 def zipit(file):
-    destination='mashup.zip'
+    destination='singer.zip'
     zip_file=zipfile.ZipFile(destination,'w')
     zip_file.write(file,compress_type=zipfile.ZIP_DEFLATED)
     zip_file.close()
