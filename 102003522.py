@@ -14,7 +14,7 @@ from email import encoders
 from time import sleep
 import re
 import zipfile
-# from moviepy.editor import *
+from moviepy.editor import *
 from youtube_search import YoutubeSearch
 import json
 from pytube import YouTube
