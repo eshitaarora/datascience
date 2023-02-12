@@ -1,7 +1,19 @@
-py -m pip install moviepy
-py -m pip install youtube_search
-py -m pip install pytube
-py -m pip install pydub
+import sys
+import subprocess
+
+# implement pip as a subprocess:
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+'<moviepy>'])
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+'<youtube_search>'])
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+'<pytube>'])
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+'<pydub>'])
+# py -m pip install moviepy
+# py -m pip install youtube_search
+# py -m pip install pytube
+# py -m pip install pydub
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
